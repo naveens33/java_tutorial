@@ -51,6 +51,16 @@ public class String_example {
 		System.out.println("equals: "+amount.equals(cmpamount));
 		if(amount.equals(cmpamount))
 		{
+			System.out.println("Same");	
+		}
+		else
+		{
+			System.out.println("Not Same");	
+		}
+		
+		System.out.println("equals: "+amount.equals(cmpamount));
+		if(amount.equals(cmpamount)==false)
+		{
 			System.out.println("Not Same");	
 		}
 		else
