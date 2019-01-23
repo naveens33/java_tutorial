@@ -38,11 +38,13 @@ public class For_loop_example {
 			}
 		}
 		*/
+		/*
 		int sum=0;
 		for(int x=0;x<=10;x++)
 		{
 			sum=sum+x;
 		}
 		System.out.println("Sum of x= "+sum);
+		 */
 	}
 }

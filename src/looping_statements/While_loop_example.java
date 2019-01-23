@@ -65,11 +65,33 @@ public class While_loop_example {
 		System.out.println("Ans for sum of even: "+sumeven);
 		System.out.println("Ans for sum of odd: "+sumodd);
 */		
-		
+	/*	
 		//Infinite Loop
 		while(true)
 		{
 			System.out.println("Hello");
+		}
+		*/
+		
+		int num=1331;
+		int copy=num;
+		int rev=0;
+		
+		while(num!=0)
+		{
+			int temp=num%10;
+			rev=rev*10;
+			rev=rev+temp;
+			num=num/10;
+		}
+		System.out.println(rev);
+		if(copy==rev)
+		{
+			System.out.println("Its a Palindrome");
+		}
+		else
+		{
+			System.out.println("Its not a Palindrome");
 		}
 	}
 

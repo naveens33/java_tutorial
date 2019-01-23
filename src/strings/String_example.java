@@ -25,7 +25,7 @@ public class String_example {
 		System.out.println("toUpper: "+line.toUpperCase());
 		System.out.println("toLower: "+line.toLowerCase());
 		*/
-		
+		/*
 		String amount="Rs.500";
 		String cmpamount="Rs.500";
 		System.out.println("compareTo: "+amount.compareTo(cmpamount));
@@ -66,6 +66,30 @@ public class String_example {
 		else
 		{
 			System.out.println("Same");	
+		}
+		*/
+		/*
+		String fistname="Prem";
+		String secondname="Kumar";
+		System.out.println("Concadinate: "+fistname.concat(secondname));	
+		 */
+		
+		//Palindrom -madam, malayalam
+		String word="malayalam";
+		String reverse="";
+		
+		for(int i=0;i<word.length();i++)
+		{
+			reverse=reverse+word.charAt(word.length()-i-1);
+		}
+		System.out.println(reverse);
+		if(word.equals(reverse))
+		{
+			System.out.println("Its a Palindrome");
+		}
+		else
+		{
+			System.out.println("Its not a Palindrome");
 		}
 	}
 
