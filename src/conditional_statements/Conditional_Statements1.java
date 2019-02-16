@@ -65,7 +65,7 @@ public class Conditional_Statements1 {
 		/*
 		 * nested if conditional statement 
 		 */
-		/*
+		
 		int age;
 		Scanner in =new Scanner(System.in);
 		System.out.print("Enter your Age: ");
@@ -88,12 +88,12 @@ public class Conditional_Statements1 {
 		{
 			System.out.println("Your Not Eligible to open Bank account");
 		}
-		*/
+		
 		
 		/*
 		 * Logical operator in conditional statement 
 		 */
-		int a,b,c;
+		/*int a,b,c;
 		Scanner in =new Scanner(System.in);
 		System.out.print("Enter the 1st number: ");
 		a=in.nextInt();
@@ -113,7 +113,7 @@ public class Conditional_Statements1 {
 		{
 			System.out.println("C is greater");
 		}
-				
+				*/
 	}
 
 }
