@@ -26,7 +26,7 @@ public class Variables_datatype {
 		*/
 		/*
 		String name;
-		Scanner obj=new [Scanner(System.in);
+		Scanner obj=new Scanner(System.in);
 		System.out.print("Enter the name: ");
 		//name=obj.next();
 		name=obj.nextLine();

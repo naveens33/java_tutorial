@@ -24,6 +24,18 @@ public class Type_Casting {
 		ans1=Double.parseDouble(a)/3;
 		System.out.println(ans1);
 	*/
+		
+		String balance="100";
+		String withdraw="56";
+		
+		int bal=Integer.parseInt(balance);
+		int with=Integer.parseInt(withdraw);
+		
+		int cbal=bal-with;
+		String currentbalance="Rs."+cbal;
+		System.out.println(currentbalance);
+		
+		
 		//Convertion from Int to String 
 		int total;
 		int mark1,mark2,mark3;
