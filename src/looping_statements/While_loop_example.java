@@ -37,12 +37,12 @@ public class While_loop_example {
 	*/
 	/*
 		//Sum of n numbers 0-10
-		int x=0;
+		int x=10,i=0;
 		int sum=0;
-		while(x<=10)
+		while(i<=x)
 		{
-			sum=sum+x;
-			x++;
+			sum=sum+i;
+			i++;
 		}
 		System.out.println("Sum of x= "+sum);
 	
@@ -72,7 +72,7 @@ public class While_loop_example {
 			System.out.println("Hello");
 		}
 		*/
-		
+//Palindrome Program
 		int num=1331;
 		int copy=num;
 		int rev=0;

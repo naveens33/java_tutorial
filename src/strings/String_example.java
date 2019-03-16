@@ -91,6 +91,18 @@ public class String_example {
 		{
 			System.out.println("Its not a Palindrome");
 		}
+		/*
+		String name="Big black bugs bleed blue black blood but baby black bugs bleed blue blood.";
+		int count=0;
+		for(int i=0;i<name.length();i++)
+		{
+			if(name.charAt(i)=='b')
+			{
+				count++;
+			}
+		}
+		System.out.println(count);
+	*/
 	}
 
 }
