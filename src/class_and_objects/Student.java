@@ -4,29 +4,20 @@ public class Student {
 
 	int rollno;
 	String name;
-
-	void setdata(int x, String y)
+	
+	Student(int rollno,String name)
 	{
-		rollno=x;
-		name=y;
+		this.rollno=rollno;
+		this.name=name;
 	}
 	
 	void display()
 	{
-		System.out.println("Roll no: "+rollno);
-		System.out.println("Name: "+name);
+		System.out.println(rollno+"-"+name);
 	}
 	
 	public static void main(String[] args) {
-		Student s1=new Student();
-		s1.setdata(1, "Abi");
-
-		Student s2=new Student();
-		s2.setdata(2, "Bavi");
-		System.out.println("Roll no: "+s1.rollno);
-		System.out.println("Name: "+s2.name);
-		
-		System.out.println("Roll no: "+s2.rollno);
-		System.out.println("Name: "+s1.name);
+		Student s1=new Student(12,"Prem");
+		s1.display();	
 	}
 }

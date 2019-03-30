@@ -10,6 +10,8 @@ public class ChildClass_1 extends ParentClass_1
 		IParentClass2 obj1=new ParentClass2();
 		obj1.display2();
 		obj1.display4();
+		obj1.display5();
+		//obj1.display6();
 	}
 
 }

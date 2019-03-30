@@ -2,7 +2,7 @@ package function;
 
 public class NonParaFunc {
 
-	void display()
+	protected void display()
 	{
 		System.out.println("Hello World");
 	}

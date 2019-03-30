@@ -6,4 +6,5 @@ public abstract class SampleAbsClass {
 	{
 		System.out.println("hello");
 	}
+	abstract void print();
 }
