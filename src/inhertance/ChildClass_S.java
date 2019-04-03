@@ -22,14 +22,15 @@ class BaseClass_S
 	}
 }
 
-public class ChildClass_S extends BaseClass_S //NonParaFunc
+public class ChildClass_S extends BaseClass_S //NonParaFunc //
 {
 	public static void main(String[] args) {
 		ChildClass_S obj=new ChildClass_S();
-		/*obj.display1();
-		//obj.display2();
-		obj.display3();*/
 		//obj.display();
+		/*obj.display1();
+		obj.display2();
+		obj.display3();
+		obj.display4();*/
 	}
 
 }

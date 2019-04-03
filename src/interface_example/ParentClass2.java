@@ -11,11 +11,13 @@ public class ParentClass2 implements IParentClass2{
 		
 	}
 
-	public void display5() {
+	public void display6() {
 		// TODO Auto-generated method stub
 		
 	}
-	public void display6() {
+
+	@Override
+	public void display5() {
 		// TODO Auto-generated method stub
 		
 	}
