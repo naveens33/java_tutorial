@@ -1,6 +1,6 @@
-package strings;
+package charsequence;
 
-public class String_example {
+public class StringFunctions {
 
 	public static void main(String[] args) {
 		/*

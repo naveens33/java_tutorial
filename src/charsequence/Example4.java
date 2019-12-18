@@ -1,4 +1,4 @@
-package strings;
+package charsequence;
 
 public class Example4 {
 
