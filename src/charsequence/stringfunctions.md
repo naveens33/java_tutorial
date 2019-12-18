@@ -1,4 +1,4 @@
-|No.|| Method|| Description|
+|No.| Method|| Description|
 |---|---------|------------|
 |1| char charAt(int index)|| returns char value for the particular index|
 |2| int length()|| returns string length|
