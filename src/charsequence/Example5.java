@@ -3,11 +3,12 @@ package charsequence;
 public class Example5 {
 
 	public static void main(String[] args) {
-		// Palindrome for string using StringBuilder
-		String name="madam";
-		StringBuilder n=new StringBuilder(name);
-		n.reverse();
-		if(name.equals(n.toString()))
+		// Palindrome using StringBuilder
+		
+		StringBuilder name=new StringBuilder("madam");
+		StringBuilder copy=name;
+		name.reverse();
+		if(name.equals(copy))
 		{
 			System.out.println("is pali");
 		}
