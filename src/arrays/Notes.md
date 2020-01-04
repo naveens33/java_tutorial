@@ -7,3 +7,6 @@
 * An array of objects stores only the references to the objects.
 * In Java, the position of an element is specified by index which is zero-based. That means the first element is at index 0, the second element at index 1, and so on.
 * An array itself is actually an object.
+
+
+1. Jagged Array

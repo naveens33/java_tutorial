@@ -17,7 +17,6 @@ public class Example4 {
 				}
 			}
 		}
-		System.out.println(ch);
 		int count=0;
 		for(int i=0;i<ch.length;i++)
 		{
@@ -28,7 +27,11 @@ public class Example4 {
 		}
 		if(count>1)
 		{
-			System.out.println("Its not Palindrome");
+			System.out.println("Its can not become Palindrome");
+		}
+		else
+		{
+			System.out.println("Its can become Palindrome");
 		}
 	}
 

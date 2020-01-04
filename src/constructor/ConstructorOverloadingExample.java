@@ -11,6 +11,10 @@ public class ConstructorOverloadingExample {
 	{
 		System.out.println(x);
 	}
+	ConstructorOverloadingExample(double x)
+	{
+		System.out.println(x);
+	}
 	
 	public static void main(String[] args) {
 

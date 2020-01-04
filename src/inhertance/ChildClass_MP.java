@@ -13,6 +13,7 @@ class ParentClass_S4
 		System.out.println("ParentClass_S2");
 	}
 }
+
 public class ChildClass_MP extends ParentClass_S3//, extends ParentClass_S4
 {
 /*

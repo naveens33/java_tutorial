@@ -1,4 +1,4 @@
-package function;
+package methods;
 
 public class ParaFunc {
 

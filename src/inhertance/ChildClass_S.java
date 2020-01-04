@@ -1,6 +1,6 @@
 package inhertance;
 
-import function.NonParaFunc;
+import methods.NonParaFunc;
 
 class BaseClass_S
 {
