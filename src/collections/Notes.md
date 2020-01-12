@@ -75,6 +75,9 @@
 ### Arrays vs ArrayList
 
 |S.No.|	Array|	ArrayList|
+|-----|------|-----------|
 |1|	The Array is of fixed size, means we cannot resize the array as per need.|	ArrayList is not of the fixed size we can change the size dynamically.|
 |2|	Arrays are of the static type.|	ArrayList is of dynamic size.|
 |3|	Arrays can store primitive data types as well as objects.|	ArrayList cannot store the primitive data types it can only store the objects.|
+
+### SortedMap->TreeMap vs HashMap
