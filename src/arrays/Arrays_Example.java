@@ -46,15 +46,6 @@ public class Arrays_Example {
 			System.out.println("Second Letter: "+name[i].toUpperCase());
 		}
 		*/
-		
-		String address=" #219, Neeladri Nagar, Electronic City, Bengaluru, Karnataka 560100";
-		String[] words=address.split(",");
-		
-		for(int i=0;i<words.length;i++)
-		{
-			System.out.println(i+" :"+words[i]);
-		}
-		//System.out.println("City is: "+words[3]);
 	}
 
 }

@@ -11,15 +11,15 @@ public class NestedIf {
 		age=in.nextInt();
 		if(age>=18)
 		{
-			System.out.println("Enter the pan status(yes/no)");
-			String panstatus=in.next();
-			if(panstatus.equals("yes"))
+			System.out.println("Do you have pan card?(true/false)");
+			boolean panstatus=in.nextBoolean();
+			if(panstatus==true)
 			{
 				System.out.println("Eligible");
 			}
 			else
 			{
-				System.out.println("Apply for pan");
+				System.out.println("Apply for Pan");
 			}
 		}
 		else

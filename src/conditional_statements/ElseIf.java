@@ -2,13 +2,13 @@ package conditional_statements;
 
 import java.util.Scanner;
 
-public class ElseIF {
+public class ElseIf {
 
 	public static void main(String[] args) {
 		/*
 		 *  When should we go to else if?
 		 *  When you get multiple statements to be handled
-		 *  When should we use logical operator 
+		 *  When should we use logical operator? 
 		 *  When you get multiple cond. should be taken care in conditional statements
 		 */
 
