@@ -1,7 +1,7 @@
 ### List of OOP Concepts in Java
 
-* Class
-* Object
+* Class - Blue Print Data Member and Member Method
+* Object - Entity that defines its Property(DM) and Behaviour(MM)
 * Encapsulation
 * Abstraction
 * Polymorphism

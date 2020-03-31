@@ -1,6 +1,6 @@
 package charsequence;
 
-public class StringBufferFunctions {
+public class StringBufferMethods {
 
 	public static void main(String[] args) {
 		

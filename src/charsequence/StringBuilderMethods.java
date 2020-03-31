@@ -1,6 +1,6 @@
 package charsequence;
 
-public class StringBuilderFunctions {
+public class StringBuilderMethods {
 
 	public static void main(String[] args) {
 		/*append()

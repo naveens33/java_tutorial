@@ -10,8 +10,7 @@ public class ListExamples {
 		/*List
 		 * 1. Array List
 		 * 2. Linked List
-		 * 3. Vector List
-		 * 4. Stack List
+		 * 3. Vector -> Stack
 		 */
 		
 		/*
