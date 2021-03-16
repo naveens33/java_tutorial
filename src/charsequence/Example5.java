@@ -3,6 +3,9 @@ package charsequence;
 public class Example5 {
 
 	public static void main(String[] args) {
+		String str1 = new String("Hello");
+		String str2 = new String("Hello");
+		System.out.println(str1==str2);
 		// Palindrome using StringBuilder
 		
 		StringBuilder name=new StringBuilder("madam1");

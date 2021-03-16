@@ -1,6 +1,6 @@
 package inhertance;
 
-public class FindTotal {
+public class FindTotal{
 
 	public double total(double m1,double m2, double m3)
 	{

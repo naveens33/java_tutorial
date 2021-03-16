@@ -5,7 +5,7 @@ public class ReturnFunc {
 	int add(int x, int y)
 	{
 		int z=x+y;
-		return(z);
+		return z;
 	}
 	
 	public static void main(String[] args) {

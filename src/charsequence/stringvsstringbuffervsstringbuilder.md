@@ -8,3 +8,5 @@
 ### thread safe vs thread unsafe
 
 ### synchronized vs asynchronized
+
+### Is String is thread safe or not.

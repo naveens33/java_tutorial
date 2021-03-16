@@ -23,6 +23,11 @@
 * In Java LinkedList class, manipulation is fast because no shifting needs to occur.
 * Java LinkedList class can be used as a list, stack or queue.
 
+	LinkedList<String> ll=new LinkedList<String>(); 
+	ll.push(50); 
+	ll.peekLast(); 
+		
+
 ### HashSet
 
 * HashSet stores the elements by using a mechanism called hashing.
@@ -31,7 +36,7 @@
 * HashSet class is non synchronized.
 * HashSet doesn't maintain the insertion order. Here, elements are inserted on the basis of their hashcode.
 * HashSet is the best approach for search operations.
-* The initial default capacity of HashSet is 16, and the load factor is 0.75.
+* The initial default capacity of HashSet is 16, and the load factor is 0.75(The load factor is a measure of how full the hash table is allowed to get before its capacity is automatically increased).
 
 ### ArrayList vs Vector
 
@@ -80,4 +85,8 @@
 |2|	Arrays are of the static type.|	ArrayList is of dynamic size.|
 |3|	Arrays can store primitive data types as well as objects.|	ArrayList cannot store the primitive data types it can only store the objects.|
 
-### SortedMap->TreeMap vs HashMap
+### TreeSet vs HashSet
+* HashSet using Hashing Algorithm. TreeSet uses Red- Black tree algorithm.
+* Elements in HashSet are not ordered. But TreeSet maintains objects in Sorted(ascending) order defined by either Comparable or Comparator method in Java.
+* HashSet allows null object. But TreeSet doesn’t allow null Object and throw NullPointerException, Why, because TreeSet uses compareTo() method to compare keys and compareTo() will throw java.lang.NullPointerException.
+* HashSet uses equals() method to compare two object in Set and for detecting duplicates. TreeSet uses compareTo() method for same purpose 

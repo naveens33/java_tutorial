@@ -1,6 +1,7 @@
 package constructor;
 
-public class Constructor_Example {
+
+public class Constructor_Example{
 	
 	Constructor_Example()
 	{
@@ -31,7 +32,6 @@ public class Constructor_Example {
 		Constructor_Example obj1=new Constructor_Example(3);
 		Constructor_Example obj2=new Constructor_Example(3,6.5);
 		Constructor_Example obj3=new Constructor_Example(3.6);
-		
 	//	int c=obj.add(5, 6);
 	//	System.out.println(c);
 

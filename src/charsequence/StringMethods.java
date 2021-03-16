@@ -3,9 +3,13 @@ package charsequence;
 public class StringMethods {
 
 	public static void main(String[] args) {
-		/*
+		
 		String name="Prem Kumar";
+		name = name.toLowerCase();
+		System.out.println(name);
+
 		//String name=new String("Prem");
+		/*
 		System.out.println("charAt: "+name.charAt(1));
 		System.out.println("length: "+name.length());
 		System.out.println("indexOf: "+name.indexOf('e'));
@@ -73,7 +77,7 @@ public class StringMethods {
 		String secondname="Kumar";
 		System.out.println("Concadinate: "+fistname.concat(secondname));	
 		 */
-		
+		/*
 		//Palindrom -madam, malayalam
 		String word="malayalam";
 		String reverse="";

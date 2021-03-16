@@ -1,5 +1,6 @@
 package constructor;
 
+
 public class ConstructorOverloadingExample {
 
 	ConstructorOverloadingExample()
@@ -25,8 +26,7 @@ public class ConstructorOverloadingExample {
 		ConstructorOverloadingExample obj2=new ConstructorOverloadingExample(5);
 		ConstructorOverloadingExample obj3=new ConstructorOverloadingExample("Prem");
 		ConstructorOverloadingExample obj4=new ConstructorOverloadingExample("Prem",7);
-		
-		
+	
 		
 	}
 

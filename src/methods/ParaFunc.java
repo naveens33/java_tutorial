@@ -2,6 +2,7 @@ package methods;
 
 public class ParaFunc {
 
+	
 	void add(int x, int y)
 	{
 		int z=x+y;

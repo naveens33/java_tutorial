@@ -17,6 +17,7 @@ public class DateTimeExample {
 		cal.setTime(m);
 		int month = cal.get(Calendar.MONTH);
 		System.out.println(month);
+		
 	}
 
 }

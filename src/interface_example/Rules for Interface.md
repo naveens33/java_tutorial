@@ -4,9 +4,7 @@
 * Interface methods can have a body if static or default modifier is used against the method
 * An interface is 100% abstract class(Implicitly). After Java 8 it doesn’t hold true.
 * Interfaces can be implemented by any class from any inheritance tree.
-* All methods in Interfaces are abstract. (From Java 8 either abstract/ static / default)
 * An interface can have constants, these constants are public, static and final(Implicitly).
-* Interface methods are implicitly public & abstract. (Before Java 8)
 * An interface can also have private methods. (Java 9)
 * A class implementing an interface can also be an abstract class.
 * An abstract class which is implementing an interface need not implement all abstract method.
